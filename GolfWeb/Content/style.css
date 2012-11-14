@@ -1,0 +1,96 @@
+﻿#wrapper
+{
+    min-width: 640px;
+    max-width: 640px;
+    width: auto;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    font-family: "Arial" , "Helvetica Neue";
+}
+.foot
+{
+}
+.foot p
+{
+}
+.container
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar
+{
+    margin-bottom: 18px;
+    overflow: visible;
+    color: #999;
+}
+.navbar-inner
+{
+    display: inline-block;
+    width: 74%;
+    right:0;
+}
+.logo
+{
+    display: inline-block;
+    margin-left: 34px;
+    background-image: none;
+    background-color: transparent;
+}
+.navbar ul
+{
+    font-family: Arial, Verdana;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.navbar ul li
+{
+    display: block;
+    position: relative;
+    float: right;
+    min-width:110px;
+}
+.navbar li ul
+{
+    display: none;
+}
+.navbar ul li a
+{
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    border-top: 1px solid #ffffff;
+    padding: 5px 15px 5px 15px;
+    background: #111;
+    margin-left: 1px;
+    white-space: nowrap;
+}
+
+.navbar ul li a:hover
+{
+    background: #617F8A;
+}
+.navbar li:hover ul
+{
+    display: block;
+    position: absolute;
+}
+.navbar li:hover li
+{
+    float: none;
+    font-size: 11px;
+}
+.navbar li:hover a
+{
+    background: #617F8A;
+}
+.navbar li:hover li a:hover
+{
+    background: #95A9B1;
+}
+

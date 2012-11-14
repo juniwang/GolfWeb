@@ -118,6 +118,7 @@
     <Content Include="Content\images\slide1.png" />
     <Content Include="Content\images\slide2.png" />
     <Content Include="Content\images\slide3.png" />
+    <Content Include="Content\style.css" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Content\themes\base\jquery-ui.css" />
@@ -176,7 +177,6 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Content\css\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
