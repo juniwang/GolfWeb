@@ -1,0 +1,61 @@
+﻿@model IEnumerable<GolfWeb.Models.ProductModel>
+@{    
+    ViewBag.Title = "Company";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("a.selected").removeClass("selected");
+        $("#liproducts").addClass("selected");
+
+        // add style for table
+        $('#table1 tr:not(:has(th)):even').addClass('even');
+        $('#table1 tr:not(:has(th)):odd').addClass('odd');
+    });
+</script>
+<div class="main">
+    <div class="left">
+        <div style="margin-top: 6px">
+            <img alt="" src="../../Content/images/7left2.png" /></div>
+    </div>
+    <div class="right">
+        <div>
+            <img alt="" width="450" style="overflow: hidden" src="../../Content/images/line1near_nav.png" />
+        </div>
+        <div class="rigthtitle">
+            <div class="rightplain">
+                Products
+            </div>
+            <div class="inlineblock">
+                <a href="Index">
+                    <img border="0" alt="" src="../../Content/images/hpmini.png" /></a>
+            </div>
+        </div>
+        <div class="rightext">
+            @if (Model != null && Model.Count() > 0)
+            {
+    
+                <table id="table1" class="ptable">
+                    <tr>
+                        <td>
+                            GOLF TEE HOLDER
+                        </td>
+                        <td>
+                            Spec
+                        </td>
+                    </tr>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                @item.Holder
+                            </td>
+                            <td>@item.Spec
+                            </td>
+                        </tr>
+                    }
+                </table>
+            }
+        </div>
+    </div>
+</div>

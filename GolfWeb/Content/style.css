@@ -11,6 +11,8 @@
 }
 .foot
 {
+    text-align: center;
+    margin-top:20px;
 }
 .foot p
 {
@@ -23,7 +25,7 @@
 
 .navbar
 {
-    margin-top:30px;
+    margin-top: 40px;
     margin-bottom: 18px;
     overflow: visible;
     color: #999;
@@ -32,7 +34,7 @@
 {
     display: inline-block;
     width: 74%;
-    right:0;
+    right: 0;
 }
 .logo
 {
@@ -54,8 +56,8 @@
     display: block;
     position: relative;
     float: right;
-    width:auto;
-    min-width:110px;
+    width: auto;
+    min-width: 100px;
 }
 .navbar li ul
 {
@@ -70,8 +72,14 @@
     padding: 5px 15px 5px 15px;
     background: #111;
     margin-left: 1px;
-    text-align:center;
+    text-align: center;
     white-space: nowrap;
+}
+
+.navbar ul li a.selected
+{
+    background: #fafafa;
+    color: #111;
 }
 
 .navbar ul li a:hover
@@ -96,4 +104,71 @@
 {
     background: #95A9B1;
 }
+.main
+{
+    width: 100%;
+    margin-top: 20px;
+}
+.left
+{
+    width: 29%;
+    display: inline-block;
+}
+.right
+{
+    width: auto;
+    display: inline-block;
+    vertical-align: top;
+    font-family: "Book Antiqua";
+    color:#6f6d6e;
+}
+.rigthtitle
+{
+    margin-top: 6px;
+    color: #8f9e41;
+    font-size: 18px;
+    vertical-align: middle;
+    font-family: Arial, Verdana;
+}
+.rightplain
+{
+    display: inline-block;
+    position: relative;
+    bottom: 3px;
+}
 
+.rightext
+{
+    font-size: 14px;
+    max-width: 450px;
+    word-wrap: break-word;
+    text-align: justify;
+}
+.rightsub
+{
+    display: block;
+    margin-top: 15px;
+}
+.rightsubtitle
+{
+    display: inline-block;
+    position: relative;
+    bottom: 3px;
+    font-size:16px
+}
+.middleline{margin:0; padding:0;position:relative; top:-14px;}
+.rightext2
+{
+    font-size: 14px;
+    max-width: 450px;
+    word-wrap: break-word;
+    text-align: justify;position:relative; top:-12px;
+}
+.ptable{ margin-top:10px;border="0" ;cellpadding="2"; cellspacing="2"; width="80%"; font-size:12px;}
+.ptable td{ padding-left:14px; position:relative;}
+.even{
+background-color:#D7E9B9;
+}
+.odd{
+background-color:#ECF5DA;
+}

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<products>
+  <product holder="SMALL PLASTIC BALL MARKER" spec="1.9CM*1.5CM"/>
+  <product holder="LARGE PLASTIC BALL MARKER" spec="2.4CM*1.5CM"/>
+  <product holder="PLASTIC DIVOT" spec="7.0CM*2.5CM"/>
+  <product holder="WOODEN CASTLE TEE" spec="3.5CM"/>
+  <product holder="WOODEN CASTLE TEE" spec="5.4CM"/>
+  <product holder="WOODEN CASTLE TEE" spec="7.0CM"/>
+  <product holder="WOODEN CASTLE TEE" spec="8.0CM"/>
+  <product holder="PLASTIC BALL PENCIL WITHOUT ERASER" spec="11.5CM"/>
+  <product holder="PLASTIC BALL PENCIL WITH ERASER" spec="12.5CM"/>
+  <product holder="WOODEN BALL PENCIL WITHOUT ERASER" spec="8.8CM"/>
+  <product holder="WOODEN BALL PENCIL WITH ERASER" spec="11.5CM"/>
+  <product holder="Golf Players Jacquard Towel" spec="50CM*75CM"/>
+  <product holder="Golf Players Jacquard Towel" spec="50CM*100CM"/>
+  <product holder="Golf Players Jacquard Towel with reactivedye with AZO" spec="50CM*75CM"/>
+  <product holder="Golf Players Jacquard Towel with reactivedye with AZO" spec="50CM*100CM"/>
+  <product holder="Tri-fold Golf Towel with bag clip" spec="50CM*25CM"/>
+  <product holder="Tri-fold Golf Towel with bag clip" spec="60CM*40CM"/>
+  <product holder="Tri-fold Golf Towel with bag clip" spec="60CM*40CM"/>
+  <product holder="Golf glove" spec="PU"/>
+  <product holder="Golf glove" spec="genuine leather"/>
+  <product holder="Golf glove" spec="Synthetic leather on the palm for improved feel"/>
+  <product holder="Golf glove" spec="premium cabretta leather for sensitivity"/>
+</products>
