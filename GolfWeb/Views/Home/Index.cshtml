@@ -1,7 +1,43 @@
 ﻿@{
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
+    <script src="@Url.Content("~/scripts/slides.js")" type="text/javascript"></script>
 }
+<script type="text/javascript">
+    $(document).ready(function () {
+        var si = setInterval(function () {
+            $("#imgslide").attr("src", window.slides.next());
+        }, 3000);
 
-<h2>Index</h2>
+        $("#leftslide").click(function () {
+            $("#imgslide").attr("src", window.slides.next("left"));
+            clearInterval(si);
+            si = setInterval(function () {
+                $("#imgslide").attr("src", window.slides.next());
+            }, 3000);
+        });
 
+        $("#rightslide").click(function () {
+            $("#imgslide").attr("src", window.slides.next());
+            clearInterval(si);
+            si = setInterval(function () {
+                $("#imgslide").attr("src", window.slides.next());
+            }, 3000);
+        });
+
+        $("#imgslide").attr("src", window.slides.next());
+
+
+    });
+</script>
+<div class="slides">
+    <div class="imgcontainer">
+        <img id="imgslide" alt="" src="" />
+    </div>
+    <div class="slidesnav">
+        <div id="leftslide" width="62px" height="124px" class="slideleft">
+        </div>
+        <div id="rightslide" width="62px" height="124px" class="slideright">
+        </div>
+    </div>
+</div>

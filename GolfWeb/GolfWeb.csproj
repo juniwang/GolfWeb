@@ -116,9 +116,10 @@
     <Content Include="Content\images\line2below_t.png" />
     <Content Include="Content\images\line3_middle.png" />
     <Content Include="Content\images\logo.png" />
-    <Content Include="Content\images\slide1.png" />
-    <Content Include="Content\images\slide2.png" />
-    <Content Include="Content\images\slide3.png" />
+    <Content Include="Content\images\nothing.png" />
+    <Content Include="Content\images\slides\slide1.png" />
+    <Content Include="Content\images\slides\slide2.png" />
+    <Content Include="Content\images\slides\slide3.png" />
     <Content Include="Content\style.css" />
     <Content Include="data\products.xml" />
     <Content Include="Global.asax" />
@@ -148,6 +149,7 @@
     <Content Include="lib\System.Web.WebPages.Deployment.dll" />
     <Content Include="lib\System.Web.WebPages.dll" />
     <Content Include="lib\System.Web.WebPages.Razor.dll" />
+    <Content Include="Scripts\slides.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
