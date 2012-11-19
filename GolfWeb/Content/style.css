@@ -13,10 +13,11 @@
 {
     text-align: center;
     margin-top:20px;
-    font-size:5px;
 }
 .foot p
 {
+    width:100%;
+    word-wrap:normal ;
 }
 .container
 {
@@ -30,21 +31,18 @@
     margin-bottom: 18px;
     overflow: visible;
     color: #999;
+    position:relative;
+    text-align:right;
 }
 .navbar-inner
 {
     display: inline-block;
     width: 460px;
+    position:relative;
     right: 0;
-    float:right;
 }
-.logo
-{
-    display: inline-block;
-    margin-left: 30px;
-    background-image: none;
-    background-color: transparent;
-}
+.logo{position: absolute; left: 33px; top: -10px; z-index: 2; width: 127px; height: 44px; opacity: 2; cursor: pointer;
+           background-repeat: no-repeat; background-image: url(../../Content/images/logo.png)}
 .navbar ul
 {
     font-family: Arial, Verdana;
@@ -59,7 +57,7 @@
     position:relative;
     float: right;
     width: auto;
-    min-width: 80px;
+    min-width: 60px;
     bottom:-17px;
 }
 .navbar li ul
@@ -111,6 +109,7 @@
 {
     width: 100%;
     margin-top: 20px;
+    position:relative;
 }
 .left
 {
