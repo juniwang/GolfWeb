@@ -7,8 +7,15 @@
             <li>@Html.ActionLink("COMPANY", "Company", "Home", null, new { id = "licompany" })</li>
         </ul>
     </div>
-    <div class="logo">
+    <div class="logo" id="logo">
     </div>
     <div class="clear">
     </div>
 </div>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#logo").click(function () {
+            document.location = document.location.protocol + "//" + document.location.hostname + ":" + document.location.port;
+        });
+    });
+</script>

@@ -96,6 +96,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\images\10left2.png" />
     <Content Include="Content\images\7left1.png" />
     <Content Include="Content\images\7left2.png" />
     <Content Include="Content\images\7leftwithlogo.png" />
