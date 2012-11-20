@@ -186,3 +186,5 @@ background-color:#ECF5DA;
 .inlineblock1{ width:205px; overflow:hidden; position:relative; left:0; display:inline-block;}
 .inlineblock2{ width:205px;  overflow:hidden;display:inline-block;}
 .inlineblock3{ width:205px;  overflow:hidden; position:relative; right:0;display:inline-block;}
+.packingtext{ text-align:center; font-size:14px;}
+.packingtext span{ color:#9CA958; margin-left:5px;}

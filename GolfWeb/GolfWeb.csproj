@@ -121,6 +121,7 @@
     <Content Include="Content\images\slides\slide1.png" />
     <Content Include="Content\images\slides\slide2.png" />
     <Content Include="Content\images\slides\slide3.png" />
+    <Content Include="Content\images\packing.png" />
     <Content Include="Content\style.css" />
     <Content Include="data\products.xml" />
     <Content Include="Global.asax" />
@@ -181,7 +182,9 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Views\Home\Packing.cshtml" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Home\Index.cshtml" />
   </ItemGroup>
