@@ -11,20 +11,35 @@
 }
 .foot
 {
-    text-align: center;
-    margin-top:20px;
+    color:#000;
+    line-height:20px;
+    letter-spacing:0;
+    text-decoration: none;
+    font-family:"Arial","MingLiU","PMingLiU";
+    font-size:13px;
 }
-.foot p
-{
-    width:100%;
-    word-wrap:normal ;
+.font06{
+    font-size: 13px;
+    line-height: 20px;
+    color: #94a67b;
+    font-family:"Arial","MingLiU","PMingLiU";
+    font-weight:none;
+    text-decoration:none;
+}
+#footer {
+    /*width: 800px;
+    background-color: #144c01;*/
+    margin-top:20px;
+    text-align: center;
+    /*clear: both;	
+    background-image:url(images/down.jpg); 
+    background-repeat:no-repeat;*/
 }
 .container
 {
     margin-left: auto;
     margin-right: auto;
 }
-
 .navbar
 {
     margin-top: 40px;
