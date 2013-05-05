@@ -8,28 +8,29 @@
         if (typeof (si) != "undefined")
             clearInterval(si);
         si = setInterval(function () {
-            $("#imgslide").attr("src", window.slides.next());
+            slides.showNext();
         }, 3000);
     }
 
     $(document).ready(function () {
+        $("#foot_spliter").hide();
+        window.slides.init({ "container": $(".imgcontainer") });
         $("#leftslide").click(function () {
-            $("#imgslide").attr("src", window.slides.next("left"));
+            slides.showNext("left");
             resetInterval();
         });
 
         $("#rightslide").click(function () {
-            $("#imgslide").attr("src", window.slides.next());
+            slides.showNext();
             resetInterval();
         });
 
-        $("#imgslide").attr("src", window.slides.next());
+        slides.showNext();
         resetInterval();
     });
 </script>
 <div class="slides">
     <div class="imgcontainer">
-        <img id="imgslide" alt="" src="" />
     </div>
     <div class="slidesnav">
         <div id="leftslide" width="62px" height="124px" class="slideleft">
@@ -42,13 +43,16 @@
     <table cellpadding="0" cellspacing="0" border="0" width="100%">
         <tr>
             <td>
-                <img alt="" src="../../Content/images/hyper1.png" />
+                <a href="/Home/Wooden">
+                    <img alt="" src="../../Content/images/hyper_wooden.png" /></a>
             </td>
             <td>
-                <img alt="" src="../../Content/images/hyper2.png" />
+                <a href="/Home/Pantone">
+                    <img alt="" src="../../Content/images/hyper_pantone.png" /></a>
             </td>
             <td>
-                <img alt="" src="../../Content/images/hyper3.png" />
+               <a href="/Home/TeeWithLogo">
+                    <img alt="" src="../../Content/images/hyper_teewithlogo.png" /></a>
             </td>
         </tr>
     </table>

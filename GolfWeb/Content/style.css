@@ -39,12 +39,19 @@
 }
 .navbar
 {
-    margin-top: 40px;
+    margin-top: 60px;
     margin-bottom: 18px;
     overflow: visible;
     color: #999;
     position: relative;
     text-align: right;
+}
+.header_top
+{
+    width: 642px;
+    height: 44px;
+    background-image:url(../../Content/images/header_top.png);
+    background-repeat:repeat;
 }
 .navbar-inner
 {
@@ -307,6 +314,13 @@
 }
 .packingtext span
 {
-    color: #9CA958;
+    color: #9CA968;
     margin-left: 5px;
+}
+
+#foot_spliter
+{
+    overflow: hidden;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }

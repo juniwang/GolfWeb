@@ -37,6 +37,26 @@ namespace GolfWeb.Controllers
             return View();
         }
 
+        public ActionResult Wooden()
+        {
+            return View();
+        }
+
+        public ActionResult Pantone()
+        {
+            return View();
+        }
+
+        public ActionResult Bamboo()
+        {
+            return View();
+        }
+
+        public ActionResult TeeWithLogo()
+        {
+            return View();
+        }
+
         public ActionResult Products()
         {
             string datafile = Server.MapPath("~/data/products.xml");
