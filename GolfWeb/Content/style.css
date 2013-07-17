@@ -60,11 +60,20 @@
     position: relative;
     right: 0;
 }
+.nav-company-title
+{
+    display:inline-block;
+    position:relative;
+    bottom:-15px;
+    color:Black;
+    margin-right:20px;
+    font-size:16px;
+}
 .logo
 {
     position: absolute;
     left: 33px;
-    top: -10px;
+    top: 14px;
     z-index: 2;
     width: 127px;
     height: 44px;

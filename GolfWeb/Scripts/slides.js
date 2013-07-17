@@ -1,10 +1,10 @@
 ﻿var slides = (function (slides) {
     var config = { "container": "" };
     var pics = [];
-    pics.push({ "img": "../../Content/images/slides/slide1.png" });
-    pics.push({ "img": "../../Content/images/slides/slide2.png" });
-    pics.push({ "img": "../../Content/images/slides/slide3.png" });
-    pics.push({ "img": "../../Content/images/slides/slide4.png", "href": "/home/bamboo" });
+    pics.push({ "img": "../../Content/images/slides/slide1.jpg" });
+    pics.push({ "img": "../../Content/images/slides/slide2.jpg" });
+    pics.push({ "img": "../../Content/images/slides/slide3.jpg" });
+    pics.push({ "img": "../../Content/images/slides/slide4.jpg", "href": "/home/bamboo" });
 
     var pos = pics.length - 1;
     var next = function (dir) {

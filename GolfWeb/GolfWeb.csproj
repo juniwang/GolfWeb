@@ -108,6 +108,7 @@
     <Content Include="Content\images\9left2.png" />
     <Content Include="Content\images\9leftwithlogo.png" />
     <Content Include="Content\images\arrow2.png" />
+    <Content Include="Content\images\bamboo_left.jpg" />
     <Content Include="Content\images\bottomline.png" />
     <Content Include="Content\images\down.jpg" />
     <Content Include="Content\images\footer.png" />
@@ -123,12 +124,13 @@
     <Content Include="Content\images\logo.png" />
     <Content Include="Content\images\nothing.png" />
     <Content Include="Content\images\packing_i.png" />
+    <Content Include="Content\images\packing_left.jpg" />
     <Content Include="Content\images\pantone_coler.png" />
-    <Content Include="Content\images\slides\slide1.png" />
-    <Content Include="Content\images\slides\slide2.png" />
-    <Content Include="Content\images\slides\slide3.png" />
     <Content Include="Content\images\packing.png" />
-    <Content Include="Content\images\slides\slide4.png" />
+    <Content Include="Content\images\slides\slide1.jpg" />
+    <Content Include="Content\images\slides\slide2.jpg" />
+    <Content Include="Content\images\slides\slide3.jpg" />
+    <Content Include="Content\images\slides\slide4.jpg" />
     <Content Include="Content\images\teewithlogo.png" />
     <Content Include="Content\images\woodengolftee.png" />
     <Content Include="Content\style.css" />
@@ -214,9 +216,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Home\Products.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Web.sitemap" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Shared\_Header.cshtml" />
