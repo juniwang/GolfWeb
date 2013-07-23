@@ -1,41 +1,20 @@
 ﻿@{
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
-    <script src="@Url.Content("~/scripts/slides.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/scripts/jquery.nivo.slider.pack.js")" type="text/javascript"></script>
 }
-<script type="text/javascript">
-    function resetInterval() {
-        if (typeof (si) != "undefined")
-            clearInterval(si);
-        si = setInterval(function () {
-            slides.showNext();
-        }, 3000);
-    }
-
-    $(document).ready(function () {
-        $("#foot_spliter").hide();
-        window.slides.init({ "container": $(".imgcontainer") });
-        $("#leftslide").click(function () {
-            slides.showNext("left");
-            resetInterval();
-        });
-
-        $("#rightslide").click(function () {
-            slides.showNext();
-            resetInterval();
-        });
-
-        slides.showNext();
-        resetInterval();
-    });
-</script>
-<div class="slides">
-    <div class="imgcontainer">
-    </div>
-    <div class="slidesnav">
-        <div id="leftslide" width="62px" height="124px" class="slideleft">
-        </div>
-        <div id="rightslide" width="62px" height="124px" class="slideright">
+<div id="wrapper">
+    <div class="slider-wrapper theme-default">
+        <div id="slider" class="nivoSlider">
+            <img src="/content/images/slides/slide1.jpg" data-thumb="/content/images/slides/slide1.jpg"
+                alt="" data-transition="sliceUpLeft" />
+            <img src="/content/images/slides/slide2.jpg" data-thumb="/content/images/slides/slide2.jpg"
+                alt="" data-transition="fade"/>
+            <img src="/content/images/slides/slide3.jpg" data-thumb="/content/images/slides/slide3.jpg"
+                alt="" data-transition="slideInLeft" />
+            <a href="/home/bamboo">
+                <img src="/content/images/slides/slide4.jpg" data-thumb="/content/images/slides/slide4.jpg"
+                    alt="" data-transition="sliceUpDownRight"/></a>
         </div>
     </div>
 </div>
@@ -51,9 +30,14 @@
                     <img alt="" src="../../Content/images/hyper_pantone.jpg" /></a>
             </td>
             <td>
-               <a href="/Home/TeeWithLogo">
+                <a href="/Home/TeeWithLogo">
                     <img alt="" src="../../Content/images/hyper_teewithlogo.jpg" /></a>
             </td>
         </tr>
     </table>
 </div>
+<script type="text/javascript">
+    $(window).load(function () {
+        $('#slider').nivoSlider({ prevText: "<div class=\"slideleft\"/>", nextText: "<div class=\"slideleft\"/>", controlNav: false });
+    });
+</script>
