@@ -171,7 +171,6 @@
     <Content Include="Scripts\jquery-1.9.0.min.js" />
     <Content Include="Scripts\jquery.nivo.slider.js" />
     <Content Include="Scripts\jquery.nivo.slider.pack.js" />
-    <Content Include="Scripts\slides.js" />
     <Content Include="sitemap.xml">
       <SubType>Designer</SubType>
     </Content>
