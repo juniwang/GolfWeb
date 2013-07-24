@@ -62,6 +62,11 @@ namespace GolfWeb.Controllers
             return View();
         }
 
+        public ActionResult ForwardDispatch()
+        {
+            return View();
+        }
+
         public ActionResult Products()
         {
             string datafile = Server.MapPath("~/data/products.xml");

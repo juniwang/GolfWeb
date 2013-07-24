@@ -110,6 +110,7 @@
     <Content Include="Content\images\arrow2.png" />
     <Content Include="Content\images\bamboo_left.jpg" />
     <Content Include="Content\images\bottomline.png" />
+    <Content Include="Content\images\dispatch_left.jpg" />
     <Content Include="Content\images\down.jpg" />
     <Content Include="Content\images\footer.png" />
     <Content Include="Content\images\foot_spliter.png" />
@@ -240,7 +241,9 @@
   <ItemGroup>
     <Content Include="Views\Home\HighQualityTee.cshtml" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Views\Home\ForwardDispatch.cshtml" />
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
