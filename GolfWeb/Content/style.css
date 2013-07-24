@@ -50,8 +50,8 @@
 {
     width: 642px;
     height: 44px;
-    background-image:url(../../Content/images/header_top.jpg);
-    background-repeat:repeat;
+    background-image: url(../../Content/images/header_top.jpg);
+    background-repeat: repeat;
 }
 .navbar-inner
 {
@@ -62,12 +62,22 @@
 }
 .nav-company-title
 {
-    display:inline-block;
-    position:relative;
-    bottom:-15px;
-    color:Black;
-    margin-right:20px;
-    font-size:16px;
+    display: inline-block;
+    position: relative;
+    bottom: -15px;
+    color: Black;
+    margin-right: 20px;
+    font-size: 16px;
+}
+.sitehomepage
+{
+    display: inline-block;
+    cursor: pointer;
+    background-image: url(../../Content/images/hpmini.png);
+    background-repeat: no-repeat;
+    width: 22px;
+    height: 20px;
+    opacity: 2;
 }
 .logo
 {
@@ -160,8 +170,6 @@
     width: auto;
     display: inline-block;
     vertical-align: top;
-    font-family: "Book Antiqua";
-    color: #6f6d6e;
 }
 .rigthtitle
 {
@@ -180,6 +188,8 @@
 
 .rightext
 {
+    font-family: "Book Antiqua";
+    color: #6f6d6e;
     font-size: 14px;
     max-width: 450px;
     word-wrap: break-word;
