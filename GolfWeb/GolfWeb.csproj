@@ -127,10 +127,10 @@
     <Content Include="Content\images\packing_i.jpg" />
     <Content Include="Content\images\packing_left.jpg" />
     <Content Include="Content\images\pantone_coler.jpg" />
-    <Content Include="Content\images\slides\slide1.jpg" />
-    <Content Include="Content\images\slides\slide2.jpg" />
-    <Content Include="Content\images\slides\slide3.jpg" />
-    <Content Include="Content\images\slides\slide4.jpg" />
+    <Content Include="Content\images\slides\bamboo.jpg" />
+    <Content Include="Content\images\slides\dispatch.jpg" />
+    <Content Include="Content\images\slides\highquality.jpg" />
+    <Content Include="Content\images\slides\profession.jpg" />
     <Content Include="Content\images\teewithlogo.jpg" />
     <Content Include="Content\images\woodengolftee.jpg" />
     <Content Include="Content\slider\nivo-slider.css" />
@@ -236,6 +236,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Home\Bamboo.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\HighQualityTee.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

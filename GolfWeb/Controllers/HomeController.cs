@@ -57,6 +57,11 @@ namespace GolfWeb.Controllers
             return View();
         }
 
+        public ActionResult HighQualityTee()
+        {
+            return View();
+        }
+
         public ActionResult Products()
         {
             string datafile = Server.MapPath("~/data/products.xml");
