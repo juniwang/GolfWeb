@@ -195,6 +195,17 @@
     word-wrap: break-word;
     text-align: justify;
 }
+.rightext2
+{
+    font-family: "Book Antiqua";
+    color: #6f6d6e;
+    font-size: 14px;
+    max-width: 450px;
+    word-wrap: break-word;
+    text-align: justify;
+    position: relative;
+    top: -12px;
+}
 .rightsub
 {
     display: block;
@@ -214,15 +225,7 @@
     position: relative;
     top: -14px;
 }
-.rightext2
-{
-    font-size: 14px;
-    max-width: 450px;
-    word-wrap: break-word;
-    text-align: justify;
-    position: relative;
-    top: -12px;
-}
+
 .ptable
 {
     margin-top: 10px;
