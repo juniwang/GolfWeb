@@ -127,7 +127,8 @@
     <Content Include="Content\images\packing.jpg" />
     <Content Include="Content\images\packing_i.jpg" />
     <Content Include="Content\images\packing_left.jpg" />
-    <Content Include="Content\images\pantone_coler.jpg" />
+    <Content Include="Content\images\pantones.jpg" />
+    <Content Include="Content\images\pantone_color.jpg" />
     <Content Include="Content\images\slides\bamboo.jpg" />
     <Content Include="Content\images\slides\dispatch.jpg" />
     <Content Include="Content\images\slides\highquality.jpg" />
