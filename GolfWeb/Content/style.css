@@ -46,6 +46,51 @@
     position: relative;
     text-align: right;
 }
+.pantone-color-picker {
+    margin:0;
+    padding:0px 0px 20px 0px;
+}
+.pantone-color-picker ul {
+    margin:0;
+    padding:0;
+    width:340px;
+    display:inline-block;
+}
+.pantone-color-picker li {
+    margin:14px 5px 0px 10px;
+    padding:0;
+    width:152px;
+    height:36px;
+    float:left;
+	list-style:none;
+	background-image: url(images/pantone_color.jpg);
+	background-repeat:no-repeat;
+	cursor: pointer;
+}
+.pantone-color-picker li.pcp-yellow{background-position:-14px -93px;}
+.pantone-color-picker li.pcp-orange{background-position:-184px -93px;}
+.pantone-color-picker li.pcp-warmred{background-position:-14px -143px;}
+.pantone-color-picker li.pcp-red{background-position:-184px -143px;}
+.pantone-color-picker li.pcp-purple{background-position:-14px -193px;}
+.pantone-color-picker li.pcp-reflexblue{background-position:-184px -193px;}
+.pantone-color-picker li.pcp-green{background-position:-14px -243px;}
+.pantone-color-picker li.pcp-black{background-position:-184px -243px;}
+.pantone-color-example
+{   
+    width:320px;
+    height:66px;
+    background-image: url(images/pantones.jpg);
+    background-repeat:no-repeat;
+    display:inline-block;
+}
+.pantone-color-yellow{background-position:-404px -63px;}
+.pantone-color-orange{background-position:-404px -227px;}
+.pantone-color-warmred{background-position:-404px -391px;}
+.pantone-color-red{background-position:-404px -555px;}
+.pantone-color-purple{background-position:-40px -63px;}
+.pantone-color-reflexblue{background-position:-40px -227px;}
+.pantone-color-green{background-position:-40px -391px;}
+.pantone-color-black{background-position:-40px -555px;}
 .header_top
 {
     width: 642px;
@@ -179,6 +224,8 @@
     vertical-align: middle;
     font-family: Arial, Verdana;
 }
+.righttile-up{ margin-top:6px; margin-bottom:8px; height:6px; width:450px; background-repeat:repeat; background-image:url(images/line1near_nav.png)}
+.righttile-bottom{ margin-top:10px; height:4px; width:450px; background-repeat:repeat; background-image:url(images/line2below_t.png)}
 .rightplain
 {
     display: inline-block;
@@ -204,7 +251,6 @@
     word-wrap: break-word;
     text-align: justify;
     position: relative;
-    top: -12px;
 }
 .rightsub
 {
@@ -220,12 +266,13 @@
 }
 .middleline
 {
-    margin: 0;
+    margin: 0px 0px 5px 0px;
     padding: 0;
-    position: relative;
-    top: -14px;
+    width:450px;
+    height:2px;
+    background-repeat:repeat;
+    background-image:url(images/line3_middle.png);
 }
-
 .ptable
 {
     margin-top: 10px;

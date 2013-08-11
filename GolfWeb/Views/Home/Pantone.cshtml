@@ -8,28 +8,35 @@
             <img alt="" src="../../Content/images/10left2.jpg" /></div>
     </div>
     <div class="right">
-        <div>
-            <img alt="" width="450" style="overflow: hidden" src="../../Content/images/line1near_nav.png" />
-        </div>
+        <div class="righttile-up"></div>
         <div class="rigthtitle">
             <div class="rightplain">
                 Pantone Color Number
             </div>
             <div class="sitehomepage" />
         </div>
-        <div>
-            <img alt="" width="450" style="overflow: hidden" src="../../Content/images/line2below_t.png" />
-        </div>
+        <div class="righttile-bottom"></div>
         <div class="packingtext">
             <p>
                 Details of Advisory:<span>86-21-61675600×9018</span></p>
         </div>
         <div class="rightsub" style="text-align: center">
-            <img style="overflow: hidden" alt="" src="../../Content/images/pantone_coler.jpg" />
+            <div id="pantoneexample" class="pantone-color-example pantone-color-purple">
+            </div>
+            <div class="pantone-color-picker">
+                <ul>
+                    <li class="pcp-yellow" excolor="pantone-color-yellow"></li>
+                    <li class="pcp-orange" excolor="pantone-color-orange"></li>
+                    <li class="pcp-warmred" excolor="pantone-color-warmred"></li>
+                    <li class="pcp-red" excolor="pantone-color-red"></li>
+                    <li class="pcp-purple" excolor="pantone-color-purple"></li>
+                    <li class="pcp-reflexblue" excolor="pantone-color-reflexblue"></li>
+                    <li class="pcp-green" excolor="pantone-color-green"></li>
+                    <li class="pcp-black" excolor="pantone-color-black"></li>
+                </ul>
+            </div>
         </div>
-        <div class="middleline">
-            <img alt="" width="440" style="overflow: hidden; height: 2px;" src="../../Content/images/line3_middle.png" />
-        </div>
+        <div class="middleline"></div>
         <div class="rightext">
             <p>
                 Following the rich and variant print demand from the customers is our matching and
@@ -41,3 +48,16 @@
         </div>
     </div>
 </div>
+<script>
+    $(document).ready(function () {
+        $(".pantone-color-picker li").click(function () {
+            var color = $(this).attr("excolor");
+            if (!color) color = "pantone-color-yellow";
+            $("#pantoneexample").removeClass().addClass("pantone-color-example").addClass(color);
+        }).mouseover(function () {
+            var color = $(this).attr("excolor");
+            if (!color) color = "pantone-color-yellow";
+            $("#pantoneexample").removeClass().addClass("pantone-color-example").addClass(color);
+        });
+    });
+</script>
